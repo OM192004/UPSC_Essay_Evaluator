@@ -78,7 +78,6 @@ The frontend should now be running (typically at http://localhost:5173/).
 Open your browser and navigate to the frontend URL (e.g., http://localhost:5173/).
 Input a question/topic and paste a sample essay (must be at least 50 characters).
 Click Evaluate Essay.
-The application will route your essay to the FastAPI backend, where it will be processed by the local DistilBert ML model and the Groq LLM simultaneously, aggregating the result into a UPSC-style score out of 85.
+The application will route your essay to the FastAPI backend, where it will be processed by the local DistilBert ML model and the Groq LLM simultaneously, aggregating the result into a UPSC-style.
 💡 Features to explore:
 Theme Toggle: Use the ☀️/🌙 icon in the top right header to switch between Light and Dark mode.
-Strict Relevancy Check: Try submitting an off-topic essay. The AI is programmed to strictly penalize the score if the relevancy to the question is below 8/25!
